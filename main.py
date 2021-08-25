@@ -25,7 +25,7 @@ list_for_dyno = list_for_dyno[1:]
 
  # print(list_for_dyno)
 
-readme_md = "単体禁止ワード\n>" + str(default_banned_words) + "疑惑名詞\n>" + str(nouns) + "疑惑修飾\n>" + str(adjs) + "Dyno向け禁止ワードリスト\n>" + list_for_dyno
+readme_md = "単体禁止ワード\n>" + str(default_banned_words) + "\n疑惑名詞\n>" + str(nouns) + "\n疑惑修飾\n>" + str(adjs) + "\nDyno向け禁止ワードリスト\n>" + list_for_dyno
 
 
 with open("README.MD","w") as text_file:
