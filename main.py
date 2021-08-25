@@ -30,4 +30,4 @@ readme_md = "単体禁止ワード " + str(default_banned_words) + "\n" + "疑�
 
 with open("README.MD","w") as text_file:
     text_file.write(readme_md)
-print readme_md
+print(readme_md)
