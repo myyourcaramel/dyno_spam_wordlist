@@ -1,4 +1,4 @@
-default_banned_words = ["@everyone", "@here", "awordfordynoautomodtest", "discord nitro", "giveaway", "give out", "gives out", "giving out", "CSGO", "CS:GO"]
+default_banned_words = ["@everyone", "@here", "awordfordynoautomodtest", "discord nitro", "giveaway", "give out", "gives out", "giving out"]
 
 nouns = ["nitro", "gift", "airdrop", "case"]
 adjs = ["free", "for free", "distribution"]
