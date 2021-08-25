@@ -8,6 +8,8 @@ for noun in nouns:
     for adj in adjs:
         banned_word = noun + " " + adj
         banned_words.append(banned_word)
+        banned_word = noun + "s " + adj
+        banned_words.append(banned_word)
         banned_word = adj + " " + noun
         banned_words.append(banned_word)
 
