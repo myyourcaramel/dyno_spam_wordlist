@@ -1,1 +1,6 @@
-> @everyone,@here,awordfordynoautomodtest,discord nitro,giveaway,give out,gives out,giving out,nitro free,nitros free,free nitro,nitro for free,nitros for free,for free nitro,nitro distribution,nitros distribution,distribution nitro,gift free,gifts free,free gift,gift for free,gifts for free,for free gift,gift distribution,gifts distribution,distribution gift,airdrop free,airdrops free,free airdrop,airdrop for free,airdrops for free,for free airdrop,airdrop distribution,airdrops distribution,distribution airdrop,case free,cases free,free case,case for free,cases for free,for free case,case distribution,cases distribution,distribution case
+単体禁止ワード ['@everyone', '@here', 'awordfordynoautomodtest', 'discord nitro', 'for free', 'CSGO', 'CS:GO', 'giveaway', 'give out', 'gives out', 'giving out']
+疑惑名詞 ['nitro', 'gift', 'airdrop', 'case']
+疑惑修飾 ['free', 'distribution']
+
+Dyno向け禁止ワードリスト
+> @everyone,@here,awordfordynoautomodtest,discord nitro,for free,CSGO,CS:GO,giveaway,give out,gives out,giving out,nitro free,nitros free,free nitro,nitro distribution,nitros distribution,distribution nitro,gift free,gifts free,free gift,gift distribution,gifts distribution,distribution gift,airdrop free,airdrops free,free airdrop,airdrop distribution,airdrops distribution,distribution airdrop,case free,cases free,free case,case distribution,cases distribution,distribution case
