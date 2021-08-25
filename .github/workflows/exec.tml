@@ -1,0 +1,43 @@
+name: exec
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  en2ja:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+        
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v2
+        with:
+        # Semantic version range syntax or exact version of a Python version
+          python-version: '3.x' 
+        # Optional - x64 or x86 architecture, defaults to x64
+          architecture: 'x64' 
+      
+      - name: Display Python version
+        run: python -c "import sys; print(sys.version)"
+      
+      - name: Execute a python script
+        run: python main.py
+       
+      - name: tell git who I am
+        run: |
+             git config user.name github-actions
+             git config user.email github-actions@github.com
+      - name: check for changes
+        run: git status
+      - name: stage changed files
+        run: git add .
+      - name: commit changed files
+        run: git commit -m "Updating banned words"
+      #- name: fetch from master
+      #  run: git fetch origin master
+      - name: push code to master
+        run: git push
