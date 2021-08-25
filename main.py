@@ -16,5 +16,10 @@ for noun in nouns:
 list_for_dyno = ""
 for banned_word in banned_words:
     list_for_dyno = list_for_dyno + "," + banned_word
+list_for_dyno = list_for_dyno[1:]
 
 print(list_for_dyno)
+
+with open("README.MD","w") as text_file:
+    text_file.write("> " + list_for_dyno)
+
