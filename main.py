@@ -1,7 +1,7 @@
-default_banned_words = ["@everyone", "@here", "awordfordynoautomodtest", "CSGO", "CS:GO"]
+default_banned_words = ["@everyone", "@here", "awordfordynoautomodtest", "discord nitro", "giveaway", "give out", "gives out", "giving out", "CSGO", "CS:GO"]
 
-nouns = ["nitro", "discord nitro", "gift", "giveaway", "airdrop", "case"]
-adjs = ["free", "for free", "giving out", "giveaway", "distribution"]
+nouns = ["nitro", "gift", "airdrop", "case"]
+adjs = ["free", "for free", "distribution"]
 
 banned_words = default_banned_words
 for noun in nouns:
