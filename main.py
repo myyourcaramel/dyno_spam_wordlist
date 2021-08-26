@@ -29,6 +29,8 @@ for noun in nouns:
         banned_words.append(banned_word)
         banned_word = verb + " the " + noun
         banned_words.append(banned_word)
+        banned_word = verb + " some " + noun
+        banned_words.append(banned_word)
         
 banned_words.extend(banned_phrases)
 
