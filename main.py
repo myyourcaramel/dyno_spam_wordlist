@@ -6,8 +6,8 @@ default_banned_words.extend(["CSGO", "CS:GO"])
 # default_banned_words.extend(["giveaway", "give out", "gives out", "giving out"])
 
 nouns = ["nitro", "discord nitro", "gift", "airdrop", "case", "giveaway"]
-premods = ["free"]
-postmods = ["free", "for free", "distribution", "giveaway"]
+premods = ["free", "distributed"]
+postmods = ["free", "for free", "giveaway"]
 verbs = ["give out", "gives out", "giving out"]
 
 banned_words = []
