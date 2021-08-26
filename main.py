@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 default_banned_words = ["@everyone", "@here", "awordfordynoautomodtest"]
-default_banned_words.extend(["CSGO", "CS:GO"])
+default_banned_words.extend(["CSGO", "CS:"])
 # default_banned_words.extend(["discord nitro"])
 # default_banned_words.extend(["giveaway", "give out", "gives out", "giving out"])
 
