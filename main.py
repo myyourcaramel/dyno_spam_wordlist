@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 
 default_banned_words = ["@everyone", "@here", "awordfordynoautomodtest"]
-default_banned_words.extend(["CSGO", "CS:"])
+default_banned_words.extend(["CSGO", "CS:", "CS GO"])
 # default_banned_words.extend(["discord nitro"])
 # default_banned_words.extend(["giveaway", "give out", "gives out", "giving out"])
 
 nouns = ["nitro", "discord nitro", "gift", "airdrop", "case", "giveaway"]
 premods = ["free", "distributed", "shared", "months of"]
 postmods = ["free", "for free", "giveaway", "distribution", "from discord"]
-verbs = ["give out", "gives out", "giving out", "give away", "gives away", "giving away", "get", "gets", "getting", "got"]
-# subjects = ["steam"]
+verbs = ["give out", "gives out", "giving out", "give away", "gives away", "giving away", "get", "gets", "getting", "got", "take", "give"]
 
 banned_phrases = ["i am going to the army", "you can take all my skins", "steam gives away", "steam is giving away"]
+banned_phrases.extend(["steam give", "steam is giving", "steam gave", "steam distribute", "steam is distributing"])
 
 banned_words = []
 banned_words.extend(default_banned_words)
@@ -31,6 +31,7 @@ for noun in nouns:
         banned_words.append(banned_word)
         banned_word = verb + " some " + noun
         banned_words.append(banned_word)
+        
         
 banned_words.extend(banned_phrases)
 
