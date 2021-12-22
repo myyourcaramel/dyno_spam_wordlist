@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import datetime
 
 default_banned_words = ["@everyone", "@here", "awordfordynoautomodtest"]
 default_banned_words.extend(["CSGO", "CS:", "CS GO"])
@@ -42,6 +43,9 @@ list_for_dyno = ""
 for banned_word in banned_words:
     list_for_dyno = list_for_dyno + "," + banned_word
 list_for_dyno = list_for_dyno[1:]
+
+timestamp = datetime.datetime.now()
+list_for_dyno = list_for_dyno + "," + "Last modified " + timestamp.strftime('%Y-%m-%d %H:%M:%S.%f')
 
 # print(list_for_dyno)
 
