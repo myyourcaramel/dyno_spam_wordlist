@@ -16,6 +16,9 @@ banned_phrases.extend(["steam give", "steam is giving", "steam gave", "steam dis
 banned_words = []
 banned_words.extend(default_banned_words)
 for noun in nouns:
+    for modnoun in nouns:
+        banned_word = noun + " " + modnoun
+        banned_words.append(banned_word)
     for premod in premods:
         banned_word = premod + " " + noun 
         banned_words.append(banned_word)
