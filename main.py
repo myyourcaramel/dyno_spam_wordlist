@@ -7,8 +7,8 @@ default_banned_words.extend(["CSGO", "CS:", "CS GO"])
 # default_banned_words.extend(["giveaway", "give out", "gives out", "giving out"])
 
 nouns = ["nitro", "discord nitro", "gift", "airdrop", "case", "giveaway"]
-premods = ["free", "distributed", "shared", "months of"]
-postmods = ["free", "for free", "giveaway", "distribution", "from discord"]
+premods = ["free", "distributed", "shared", "months of", "distribution of"]
+postmods = ["free", "for free", "giveaway", "distribution", "from discord", "for 3 months", "from steam", "by steam", "for you", "is for you"]
 verbs = ["give out", "gives out", "giving out", "give away", "gives away", "giving away", "get", "gets", "getting", "got", "take", "give"]
 
 banned_phrases = ["i am going to the army", "you can take all my skins", "steam gives away", "steam is giving away"]
