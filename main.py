@@ -6,12 +6,12 @@ default_banned_words.extend(["CSGO", "CS:", "CS GO"])
 # default_banned_words.extend(["discord nitro"])
 # default_banned_words.extend(["giveaway", "give out", "gives out", "giving out"])
 
-nouns = ["nitro", "discord nitro", "gift", "airdrop", "case", "giveaway"]
-premods = ["free", "distributed", "shared", "months of", "month of", "distribution of"]
-postmods = ["free", "for free", "giveaway", "distribution", "from discord", "for 3 month", "for 1 month", "for a month", "from steam", "by steam", "with steam", "for you", "for u", "is for you", "is for u", "are for you", "are for u", "is handed", "are handed", "is distributed", "are distributed"]
+nouns = ["nitro", "discord nitro", "gift", "airdrop", "case", "giveaway", "subscription"]
+premods = ["free", "distributed", "shared", "months of", "month of", "month", "months", "distribution of"]
+postmods = ["free", "for free", "giveaway", "distribution", "from discord", "for 3 month", "for 1 month", "for a month", "from steam", "by steam", "with steam", "for you", "for u", "is for you", "is for u", "are for you", "are for u", "is handed", "are handed", "is distributed", "are distributed", "from Picsart"]
 verbs = ["give out", "gives out", "giving out", "give away", "gives away", "giving away", "get", "gets", "getting", "got", "take", "give"]
 
-banned_phrases = ["i am going to the army", "you can take all my skins", "steam gives away", "steam is giving away"]
+banned_phrases = ["i am going to the army", "you can take all my skins", "steam gives away", "steam is giving away", "test my first game"]
 banned_phrases.extend(["steam give", "steam is giving", "steam gave", "steam distribute", "steam is distributing"])
 banned_phrases.extend(["activation key"])
 
