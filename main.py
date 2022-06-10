@@ -14,6 +14,7 @@ verbs = ["give out", "gives out", "giving out", "give away", "gives away", "givi
 banned_phrases = ["i am going to the army", "you can take all my skins", "steam gives away", "steam is giving away", "test my first game"]
 banned_phrases.extend(["steam give", "steam is giving", "steam gave", "steam distribute", "steam is distributing"])
 banned_phrases.extend(["activation key"])
+banned_phrases.extend(["download link"])
 
 banned_words = []
 banned_words.extend(default_banned_words)
