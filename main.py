@@ -6,7 +6,7 @@ default_banned_words.extend(["CSGO", "CS:", "CS GO"])
 # default_banned_words.extend(["discord nitro"])
 # default_banned_words.extend(["giveaway", "give out", "gives out", "giving out"])
 
-nouns = ["nitro", "discord nitro", "gift", "airdrop", "case", "giveaway", "subscription"]
+nouns = ["nitro", "discord nitro", "gift", "airdrop", "case", "giveaway", "subscription"] #promotion
 premods = ["free", "distributed", "shared", "months of", "month of", "month", "months", "distribution of"]
 postmods = ["free", "for free", "giveaway", "distribution", "from discord", "for 3 month", "for 1 month", "for a month", "from steam", "by steam", "with steam", "for you", "for u", "is for you", "is for u", "are for you", "are for u", "is handed", "are handed", "is distributed", "are distributed", "from Picsart"]
 verbs = ["give out", "gives out", "giving out", "give away", "gives away", "giving away", "get", "gets", "getting", "got", "take", "give"]
@@ -41,6 +41,16 @@ for noun in nouns:
         banned_words.append(banned_word)
         banned_word = verb + " any " + noun
         banned_words.append(banned_word)
+
+#for premod in premods:
+#    for modpremod in premods:
+#        banned_word = premod + " " + modpremod
+#        banned_words.append(banned_word)
+
+#for postmod in postmods:
+#    for modpostmod in postmods:
+#        banned_word = postmod + " " + modpostmod
+#        banned_words.append(banned_word)
         
         
 banned_words.extend(banned_phrases)
